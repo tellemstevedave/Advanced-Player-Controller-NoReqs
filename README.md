@@ -5,8 +5,6 @@ This code is not meant to be used as a plug-and-play package, but rather to be u
 when implementing Advanced Player Controller logic in your own projects.
 
 ## Requirements
-
-- Odin Inspector (uses the `Required` Attribute)
 - [Unity Improved Timers](https://github.com/adammyhre/Unity-Improved-Timers)
 
 Additional dependencies are included in this repository, but may be moved in the future to [Unity Utility Library](https://github.com/adammyhre/Unity-Utils).
