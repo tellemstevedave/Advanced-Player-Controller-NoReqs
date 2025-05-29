@@ -1,11 +1,11 @@
-using Sirenix.OdinInspector;
+
 using UnityEngine;
 
 namespace AdvancedController 
 {
     public class CameraDistanceRaycaster : MonoBehaviour {
-        [SerializeField, Required] Transform cameraTransform;
-        [SerializeField, Required] Transform cameraTargetTransform;
+        [SerializeField] Transform cameraTransform;
+        [SerializeField] Transform cameraTargetTransform;
         
         public LayerMask layerMask = Physics.AllLayers;
         public float minimumDistanceFromObstacles = 0.1f;

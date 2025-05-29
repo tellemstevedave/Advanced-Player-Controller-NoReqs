@@ -1,10 +1,9 @@
-using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityUtils;
 
 namespace AdvancedController {
     public class TurnTowardController : MonoBehaviour {
-        [SerializeField, Required] PlayerController controller;
+        [SerializeField] PlayerController controller;
         public float turnSpeed = 50f;
         
         Transform tr;

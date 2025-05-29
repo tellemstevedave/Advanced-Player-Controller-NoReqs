@@ -1,4 +1,4 @@
-using Sirenix.OdinInspector;
+
 using UnityEngine;
 using UnityUtils;
 
@@ -17,7 +17,7 @@ namespace AdvancedController {
         
         Transform tr;
         Camera cam;
-        [SerializeField, Required] InputReader input;
+        [SerializeField] InputReader input;
         #endregion
         
         public Vector3 GetUpDirection() => tr.up;

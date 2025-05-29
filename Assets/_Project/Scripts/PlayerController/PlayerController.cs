@@ -1,6 +1,6 @@
 using System;
 using ImprovedTimers;
-using Sirenix.OdinInspector;
+
 using UnityEngine;
 using UnityUtils;
 using UnityUtils.StateMachine;
@@ -9,7 +9,7 @@ namespace AdvancedController {
     [RequireComponent(typeof(PlayerMover))]
     public class PlayerController : MonoBehaviour {
         #region Fields
-        [SerializeField, Required] InputReader input;
+        [SerializeField] InputReader input;
         
         Transform tr;
         PlayerMover mover;
